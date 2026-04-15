@@ -1,0 +1,30 @@
+.app {
+  overflow-x: hidden;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Loading animation for images */
+img {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+img.loaded {
+  opacity: 1;
+}
+
+/* Hover effects for interactive elements */
+button, a {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Focus styles for accessibility */
+button:focus, input:focus, textarea:focus, select:focus {
+  outline: 2px solid #E31B23;
+  outline-offset: 2px;
+}
